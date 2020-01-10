@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IOT vremenske stanice</string>
+    <string name="grb_grada_bjelovara">Grb_Grada_Bjelovara</string>
+    <string name="tekst_veleu_ili_te_u_bjelovaru">Tekst Veleučilište u Bjelovaru</string>
+    <string name="logo_veleu_ili_ta_u_bjelovaru">Logo Veleučilišta u Bjelovaru</string>
+    <string name="tekst_grad_bjelovar_vremenske_stanice">Tekst Grad Bjelovar Vremenske Stanice</string>
+</resources>
