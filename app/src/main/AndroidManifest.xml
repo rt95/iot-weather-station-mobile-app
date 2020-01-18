@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity2"></activity>
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDUrn8wFTeJ5VhEeaosJNvyC8T0NFsy414"/>
+        <activity android:name=".Karta"></activity>
+        <activity android:name=".Activity3" />
+        <activity android:name=".Activity2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

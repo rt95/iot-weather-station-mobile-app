@@ -22,11 +22,5 @@ class MainActivity : AppCompatActivity() {
             finish()
         }, 1500)
 
-        btnStartAnotherActivity.setOnClickListener {
-            val intent = Intent(this, Activity2::class.java)
-            // start your next activity
-            startActivity(intent)
-        }
-
     }
 }

@@ -1,12 +1,12 @@
 package com.example.iotvremenskestanice
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.GridView
 import android.widget.AdapterView
 import android.view.View
-
-
+import kotlinx.android.synthetic.main.activity_2.*
 
 
 class Activity2 : AppCompatActivity() {
@@ -32,10 +32,24 @@ class Activity2 : AppCompatActivity() {
                 val book = booksAdapter.books[position]
                 book.name = " ROBERT ";
 
+                val intent = Intent(this@Activity2, Activity3::class.java)
+                    // start your next activity
+                    startActivity(intent)
+
                 // This tells the GridView to redraw itself
                 // in turn calling your BooksAdapter's getView method again for each cell
                 booksAdapter.notifyDataSetChanged()
             }
         }
+
+        /*btnStartAnotherActivity.setOnClickListener {
+            val intent = Intent(this, Activity2::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+         */
+
     }
+
 }
