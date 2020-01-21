@@ -4,4 +4,27 @@
     <string name="tekst_veleu_ili_te_u_bjelovaru">Tekst Veleučilište u Bjelovaru</string>
     <string name="logo_veleu_ili_ta_u_bjelovaru">Logo Veleučilišta u Bjelovaru</string>
     <string name="tekst_grad_bjelovar_vremenske_stanice">Tekst Grad Bjelovar Vremenske Stanice</string>
+    <string name="hamburgermenu">hamburgerMenu</string>
+    <string name="cardview">cardView</string>
+    <string name="listview">listView</string>
+    <string name="informacije_se_a_uriraju_svakih_5_minuta">Informacije se ažuriraju svakih 5 minuta</string>
+    <string name="bjelovar">Bjelovar</string>
+    <string name="sun_ano">Sunčano</string>
+    <string name="subota">Subota</string>
+    <string name="_16_11_2019">16.11.2019</string>
+    <string name="_54">54%</string>
+    <string name="_95">95%</string>
+    <string name="_2_km_h">2 km/h</string>
+    <string name="lokacija_na_karti">Lokacija na karti</string>
+    <string name="_12_c">12 °C</string>
+    <string name="_16_00">16:00</string>
+    <string name="_15_00">15:00</string>
+    <string name="_17_00">17:00</string>
+    <string name="icon">icon</string>
+    <string name="padaline">padaline</string>
+    <string name="vlaga">vlaga</string>
+    <string name="backbutton">backButton</string>
+    <string name="vjetar">vjetar</string>
+    <string name="forwarddate">forwardDate</string>
+    <string name="backwardsdate">backwardsDate</string>
 </resources>

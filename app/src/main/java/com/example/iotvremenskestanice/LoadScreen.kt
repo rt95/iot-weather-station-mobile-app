@@ -5,18 +5,17 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.annotation.RequiresApi
-import kotlinx.android.synthetic.main.activity_main.*
 import android.os.Handler
 
-class MainActivity : AppCompatActivity() {
+class LoadScreen : AppCompatActivity() {
 
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.load_screen_activity)
 
         Handler().postDelayed(Runnable {
-            val i = Intent(this@MainActivity, Activity2::class.java)
+            val i = Intent(this@LoadScreen, MainScreen::class.java)
             startActivity(i)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             finish()

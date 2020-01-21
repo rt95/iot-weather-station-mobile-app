@@ -11,7 +11,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Karta extends AppCompatActivity implements OnMapReadyCallback {
+public class KartaScreen extends AppCompatActivity implements OnMapReadyCallback {
 
     private MapView mMapView;
 
@@ -20,7 +20,7 @@ public class Karta extends AppCompatActivity implements OnMapReadyCallback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_karta);
+        setContentView(R.layout.karta_screen_activity);
 
         Bundle mapViewBundle = null;
         if (savedInstanceState != null) {

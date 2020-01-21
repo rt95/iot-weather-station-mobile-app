@@ -7,14 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Activity3 extends AppCompatActivity {
+public class StanicaScreen extends AppCompatActivity {
 
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_3);
+        setContentView(R.layout.stanica_screen_activity);
 
 
         button = (Button) findViewById(R.id.btn_lokacija);
@@ -27,7 +27,12 @@ public class Activity3 extends AppCompatActivity {
     }
 
     public void otvoriKartu(){
-        Intent intent = new Intent(this, Karta.class);
+        Intent intent = new Intent(this, KartaScreen.class);
         startActivity(intent);
+    }
+
+    //Back button
+    public void imageClick(View view) {
+        finish();
     }
 }

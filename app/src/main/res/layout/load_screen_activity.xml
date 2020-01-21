@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".MainActivity">
+    tools:context=".LoadScreen">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/img_gradText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/tekst_grad_bjelovar_vremenske_stanice"
@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/ic_group_10" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/img_vubText"
         android:layout_width="177dp"
         android:layout_height="47dp"
         android:layout_marginBottom="20dp"
@@ -30,7 +30,7 @@
         app:srcCompat="@drawable/ic_group_27" />
 
     <ImageView
-        android:id="@+id/imageview"
+        android:id="@+id/img_gradLogo"
         android:layout_width="48.22dp"
         android:layout_height="61dp"
         android:layout_alignParentTop="true"
@@ -40,22 +40,23 @@
         android:scaleX="1"
         android:scaleY="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/img_gradText"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/img_gradText"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/grb_grada_bjelovara_clean4x" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img_vubLogo"
         android:layout_width="46dp"
         android:layout_height="45dp"
         android:contentDescription="@string/logo_veleu_ili_ta_u_bjelovaru"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintBottom_toBottomOf="@+id/img_vubText"
+        app:layout_constraintEnd_toEndOf="@+id/img_vubText"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/img_vubText"
+        app:layout_constraintTop_toTopOf="@+id/img_vubText"
+        app:layout_constraintVertical_bias="0.25"
         app:srcCompat="@drawable/vub_logo2_4x" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
