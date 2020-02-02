@@ -30,6 +30,12 @@
         android:paddingTop="0dp"
         android:paddingRight="0dp"
         android:text="@string/bjelovar"
+
+        android:marqueeRepeatLimit="2"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:maxEms="5"
+
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
