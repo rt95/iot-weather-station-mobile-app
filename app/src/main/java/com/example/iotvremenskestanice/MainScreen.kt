@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.GridView
 import android.widget.AdapterView
 import android.view.View
+import android.widget.TextView
 
 
 class MainScreen : AppCompatActivity() {
@@ -43,6 +44,7 @@ class MainScreen : AppCompatActivity() {
 
                 val intent = Intent(this@MainScreen, StanicaScreen::class.java)
                     // start your next activity
+                    intent.putExtra("ImeStanice",view.findViewById<TextView>(R.id.lokacija).getText())
                     startActivity(intent)
 
                 // This tells the GridView to redraw itself
